@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    padding: 30px 0;
+    background-color: yellow;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    float: left;
+}
+.logo img{
+    
+}
+nav{
+    width: 30%;
+    float: left;
+}
+nav ul{
+    
+}nav ul li{
+    float: left;
+    display: inline-block;
+}
+nav ul li a{
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 8px 16px;
+    display: block;
+    
+    
+}
+nav ul li a:hover{
+    
+}
+.banner-section{
+    background-color: yellow;
+}
+.banner-content{
+    width: 65%;
+    float: left;
+}
+.paragraph{
+    margin-top: 80px;
+    padding-right: 70px;
+}
+.paragraph h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.paragraph h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight:700; 
+}
+.paragraph h6{
+    font-size: 12px;
+}
+.social-list{
+    
+}
+.social-list ul{
+    
+}
+.social-list ul li{
+    float: left;
+}
+.social-list ul li a{
+    color: #333;
+    display: block;
+    font-size: 30px;
+    padding-right: 20px;
+    margin-top: 30px;
+   
+   
+    
+}
+.social-list ul li a:hover{
+    
+}
+
+.phone-logo{
+    width: 35%;
+    float: right;
+}
+
+.banner-section-two{
+    background-color: aliceblue;
+}
+.lorem h2{
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.lorem h5{
+    text-align: justify;
+    margin: 20px 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.layout{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.layout div{
+    background: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 5 px 20px #98989852;
+}
+.layout div h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+.layout div p{
+    
+}
+.layout div:hover{
+    box-shadow: 0 0 0 #98989852;
+}
+footer{
+    background-color: black;
+}
+.keep-in-touch h2{
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.keep-in-touch h5{
+    font-size: 16px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 20px
+    
+}
+.sign-up-form{
+    padding: 0px 280px
+}
+.sign-up-form input{
+    box-sizing: border-box;
+    font-size: 22px;
+    padding: 5px 15px;
+    color: #333;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.sign-up-form input[type="submit"]{
+    background-color: yellow;
+    color: #333;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.footer-social-list{
+    padding: 0px 385px
+}
+.footer-social-list ul{}
+
+.footer-social-list ul li{
+    float: left;
+}
+.footer-social-list ul li a{
+    color: yellow;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
